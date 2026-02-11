@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scheduling</title>
+  <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+  <h1>Scheduling</h1>
+  <form id="editForm">
+    <label>Date: <input type="date" id="date" min="2026-01-01"></label><br>
+    <label>Name: <input type="text" id="name"></label><br>
+    <label>Number: <input type="number" id="number"></label><br>
+    <label>Location: <input type="text" id="location"></label><br>
+    <label>Status:
+      <select id="status">
+        <option>Pick Call</option>
+        <option>Disconnected</option>
+        <option>Interview Schedule</option>
+      </select>
+    </label><br>
+    <button type="submit">Save</button>
+  </form>
+
+  <script src="edit.js"></script>
+</body>
+</html>
