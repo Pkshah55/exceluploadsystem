@@ -7,8 +7,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/accessexcel');
+mongoose.connect('yours database address');
 
 app.use('/api', excelRoutes);
+
 
 app.listen(5000, () => console.log('Server running on port 5000'));
